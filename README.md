@@ -1,16 +1,62 @@
-# React + Vite
+# 📋 Kanban Board (Trello Clone)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi manajemen tugas interaktif yang dibangun menggunakan **React** dan **Vite**. Proyek ini mendemonstrasikan kemampuan pengelolaan **Complex State**, **Drag-and-Drop interactions**, dan **Data Persistence**.
 
-Currently, two official plugins are available:
+![Project Screenshot](https://via.placeholder.com/800x400?text=Please+Upload+Your+Screenshot+Here)
+_(Catatan: Ganti link gambar di atas dengan screenshot aplikasi Anda nanti)_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Fitur Utama
 
-## React Compiler
+- **Drag & Drop:** Memindahkan kartu tugas antar kolom atau mengubah urutan dalam satu kolom dengan mulus.
+- **Create & Delete:** Menambah tugas baru dan menghapus tugas yang sudah selesai.
+- **Data Persistence:** Data tersimpan otomatis di **LocalStorage** browser, sehingga tidak hilang saat direfresh.
+- **Responsive UI:** Tampilan tetap rapi dan bisa discroll secara horizontal.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Core:** React JS (Vite)
+- **Library:** @hello-pangea/dnd (untuk logika Drag and Drop)
+- **Icons:** Lucide React
+- **Utilities:** UUID (untuk Unique ID generation)
+- **Styling:** CSS3 Custom Styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Cara Menjalankan Project (Installation)
+
+1.  **Clone repository ini**
+
+    ```bash
+    git clone [https://github.com/USERNAME_ANDA/react-kanban-portfolio.git](https://github.com/USERNAME_ANDA/react-kanban-portfolio.git)
+    ```
+
+2.  **Masuk ke folder project**
+
+    ```bash
+    cd react-kanban-portfolio
+    ```
+
+3.  **Install dependencies**
+
+    ```bash
+    npm install
+    ```
+
+4.  **Jalankan server development**
+
+    ```bash
+    npm run dev
+    ```
+
+5.  Buka browser di `http://localhost:5173`
+
+## 🧠 Pelajaran yang Didapat (Learning Outcomes)
+
+Dalam membangun proyek ini, saya belajar tentang:
+
+- Mengimplementasikan logika `onDragEnd` untuk menangani manipulasi array yang kompleks.
+- Mengelola state lokal yang sinkron dengan LocalStorage menggunakan `useEffect`.
+- Membuat struktur komponen yang modular (`Column`, `TaskCard`, `Board`).
+- Menangani edge-cases seperti dropping di luar area valid.
+
+---
+
+Created by Ryonandha
