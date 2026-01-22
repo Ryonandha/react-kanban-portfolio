@@ -46,3 +46,19 @@ body {
 .task-card:hover {
   background-color: #f4f5f7;
 }
+
+@media (max-width: 768px) {
+  .board-container {
+    flex-direction: column; /* Ubah susunan dari samping ke bawah */
+    align-items: stretch; /* Lebarkan kolom agar memenuhi layar */
+    overflow-x: hidden; /* Matikan scroll ke samping */
+    padding-bottom: 50px; /* Tambah jarak bawah agar enak discroll */
+  }
+
+  .column {
+    width: 100%; /* Paksa kolom jadi selebar layar */
+    min-width: 0; /* Reset batasan lebar minimal */
+    margin-bottom: 20px; /* Beri jarak antar kolom atas-bawah */
+    box-sizing: border-box; /* Pastikan padding tidak membuat layar melebar */
+  }
+}
