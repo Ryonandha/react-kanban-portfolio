@@ -2,7 +2,7 @@
 
 Aplikasi manajemen tugas interaktif yang dibangun menggunakan **React** dan **Vite**. Proyek ini mendemonstrasikan kemampuan pengelolaan **Complex State**, **Drag-and-Drop interactions**, dan **Data Persistence**.
 
-![Project Screenshot](./Screenshot Kaban.png)
+![Project Screenshot](./Screenshot_Kaban.png)
 
 ## 🚀 Fitur Utama
 
@@ -24,7 +24,7 @@ Aplikasi manajemen tugas interaktif yang dibangun menggunakan **React** dan **Vi
 1.  **Clone repository ini**
 
     ```bash
-    git clone https://github.com/Ryonandha/react-kanban-portfolio.git
+    git clone [https://github.com/Ryonandha/react-kanban-portfolio.git](https://github.com/Ryonandha/react-kanban-portfolio.git)
     ```
 
 2.  **Masuk ke folder project**
